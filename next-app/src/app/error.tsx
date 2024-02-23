@@ -19,20 +19,23 @@ export default function Error({
 
   return (
     <main>
-      <section className='bg-white'>
-        <div className='layout flex min-h-screen flex-col items-center justify-center text-center text-black'>
-          <RiAlarmWarningFill
-            size={60}
-            className='drop-shadow-glow animate-flicker text-red-500'
-          />
-          <h1 className='mt-8 text-4xl md:text-6xl'>
-            Oops, something went wrong!
-          </h1>
-          <TextButton variant='basic' onClick={reset} className='mt-4'>
-            Try again
-          </TextButton>
+      <section class="flex items-center p-16 h-[calc(100vh - 72px)]">
+      <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+        <div class="max-w-md text-center">
+          <h2 class="mb-8 font-bold text-9xl text-primary">
+            <span class="sr-only">Error</span>
+            <span>404</span>
+          </h2>
+          <p class="text-3xl font-medium md:text-3xl">Sorry, we couldn't find this page.</p>
+          <p class="mt-4 mb-8 text-lg text-muted">
+            But dont worry, you can find plenty of other things on our homepage.
+          </p>
+          <a rel="noopener noreferrer" href="/" class="btn">
+            Back to home
+          </a>
         </div>
-      </section>
+      </div>
+    </section>
     </main>
   );
 }
