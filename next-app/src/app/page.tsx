@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image'
 import * as React from 'react';
 
+import Counter from '../components/Counter';
 
 /**
  * SVGR Support
@@ -57,7 +58,7 @@ export default function HomePage() {
                   generation and more.
                 </span>
               </p>
-              {/* <Counter /> */}
+              <Counter />
             </div>
           </div>
           <div className="basis-1/2">
