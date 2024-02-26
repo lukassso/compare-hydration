@@ -36,7 +36,7 @@ export default component$(() => {
             <Logo />
           </a>
           <div class="flex items-center md:hidden">
-            <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
+            {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
             <ToggleMenu />
           </div>
         </div>
@@ -50,9 +50,9 @@ export default component$(() => {
                 <li key={key} class={items?.length ? "dropdown" : ""}>
                   {items?.length ? (
                     <>
-                      <button class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center">
+                      {/* <button class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center">
                         {text} <IconChevronDown class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
-                      </button>
+                      </button> */}
                       <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-slate-800 rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
                         {items.map(({ text: text2, href: href2 }, key2) => (
                           <li key={key2}>
@@ -78,9 +78,9 @@ export default component$(() => {
         </nav>
         <div class="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0">
           <div class="items-center flex justify-between w-full md:w-auto">
-            <div class="flex">
-              <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
-            </div>
+            {/* <div class="flex"> */}
+              {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
+            {/* </div> */}
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
                 href="https://github.com/onwidget/qwind"

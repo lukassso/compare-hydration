@@ -8,7 +8,7 @@ import { ToggleMenu } from '../navbar/ToggleMenu';
 export default function Navbar() {
   return (
     <header className='bg-white text-[#039de1] w-full ease-in duration-300 fixed top-0 z-10'>
-      <nav className='max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4'>
+      <nav className='max-w-[1366px] mx-auto h-[60px] flex justify-between items-center p-3'>
         <div>
           <Link href='/'>
             <span className='text-3xl font-extrabold'>Next</span>

@@ -47,10 +47,10 @@ export default function HomePage() {
             <div className="max-w-3xl mx-auto lg:max-w-none">
               <p className="text-xl text-muted mb-6 dark:text-slate-300">
                 <span className="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                  Qwind
+                  Next.js
                 </span>{" "}
                 is a production ready template to start your new website using{" "}
-                <em>Qwik</em> + <em>Tailwind CSS</em>. It has been designed
+                <em>Next</em> + <em>Tailwind CSS</em>. It has been designed
                 following Best Practices, SEO, Accessibility,{" "}
                 <span className="inline md:hidden">...</span>
                 <span className="hidden md:inline">
