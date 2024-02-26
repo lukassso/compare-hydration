@@ -37,4 +37,6 @@ I executed the applications on localhost to ensure a fair comparison. Both the N
 
 ## Lighthouse Results
 
+![Next.js vs. Qwik Comparison](assets/screenshot-2.png)
+
 ## Conclusions
