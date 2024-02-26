@@ -11,13 +11,13 @@ export default function Navbar() {
       <nav className='max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4'>
         <div>
           <Link href='/'>
-            <span className='text-3xl font-extrabold'>Next Qwik</span>
+            <span className='text-3xl font-extrabold'>Next</span>
           </Link>
         </div>
         <div className='flex justify-center items-center'>
           <ul className='hidden pr-12 md:flex font-semibold text-1xl lg:text-[20px] text-slate-800'>
             <li className='mr-4 lg:mr-8 hover:text-black'>
-              <Link href='/home'>Pages</Link>
+              <Link href='/'>Pages</Link>
             </li>
             <li className='mr-4 lg:mr-8 hover:text-black'>
               <Link href='/terms'>Terms</Link>

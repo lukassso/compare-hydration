@@ -39,7 +39,7 @@ export default function HomePage() {
             <h1 className="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
               Free template for <br className="hidden lg:block" />{" "}
               <span className="hidden lg:inline">create a website using </span>{" "}
-              <span className="text-[#039de1]">Qwik</span> +{" "}
+              <span className="text-[#039de1]">Next</span> +{" "}
               <span className="sm:whitespace-nowrap text-[#039de1]">
                 Tailwind CSS
               </span>
