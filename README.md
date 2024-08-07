@@ -23,7 +23,7 @@ Sooner or later, to be continued...
 ### Action Points:
 
 - [x] Test apps run
-- [ ] Lighthouse results obtained
+- [x] Lighthouse results obtained
 - [ ] Conclusions drawn
 
 
